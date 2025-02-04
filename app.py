@@ -1,6 +1,5 @@
 import streamlit as st
 import base64
-from huggingface_hub import notebook_login
 from byaldi import RAGMultiModalModel
 from transformers import AutoModel, AutoTokenizer, AutoProcessor
 from PIL import Image
